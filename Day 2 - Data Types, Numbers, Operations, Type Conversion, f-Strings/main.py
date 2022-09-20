@@ -36,6 +36,7 @@ print(str(70) + str(100)) # 70100
 print(3 + 5)
 print(7 - 4)
 print(3 * 2)
+print(3 // 2) # integer division
 
 print(6 / 3) # returns 2.0, a float
 print(type(6 / 3))
@@ -46,3 +47,15 @@ print (2 ** 4)
 print(3 * 3 + 3 / 3 - 3) # 9 + 1 - 3 = 7
 print(3 * (3 + 3) / 3 - 3 ) # 3 * 6 / 3 - 3 = 18 / 3 - 3 = 6 - 3 = 3
 
+# Update score values using mathematical operators in a simpler and more convenient way
+score = 100
+score += 10
+score /= 2
+score *= 3
+score -= 50
+
+# f-Strings
+score = 10
+height = 1.9
+is_winning = True
+print(f"Your score is {score}, your height is {height}, you are winning is {is_winning}")
