@@ -1,4 +1,4 @@
-# DEBUGGING PRACTICE
+# DEBUGGING PRACTICE
 
 # Instructions
 

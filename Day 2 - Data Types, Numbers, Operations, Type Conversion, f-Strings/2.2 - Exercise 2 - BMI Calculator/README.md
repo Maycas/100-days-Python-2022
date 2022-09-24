@@ -1,4 +1,4 @@
-# BMI Calculator
+# BMI Calculator
 
 ## Instructions
 
@@ -10,7 +10,7 @@ The BMI is calculated by dividing a person's weight (in kg) by the square of the
 
 $\ BMI = weight (kg) / height(m)^2 $
 
-## Example
+## Example
 
 ```python
 weight = 80

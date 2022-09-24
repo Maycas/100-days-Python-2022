@@ -1,4 +1,4 @@
-# INPUT FUNCTION
+# INPUT FUNCTION
 
 # Instructions
 

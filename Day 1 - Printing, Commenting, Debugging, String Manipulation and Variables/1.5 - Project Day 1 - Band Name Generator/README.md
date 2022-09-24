@@ -1,6 +1,6 @@
-# PROJECT 1 - BAND NAME GENERATOR
+# PROJECT 1 - BAND NAME GENERATOR
 
-## Instructions
+## Instructions
 
 Create your band name by concatenating the name of your city and the name of your pet. Show it to the user so he/she can show off the coolest band name ever.
 

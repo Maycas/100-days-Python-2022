@@ -13,7 +13,7 @@ It will take your current age as the input and output a message with our time le
 Where x, y and z are replaced with the actual calculated numbers.
 
 
-## Example
+## Example
 
 `56`
 `You have 12410 days, 1768 weeks, and 408 months left.`

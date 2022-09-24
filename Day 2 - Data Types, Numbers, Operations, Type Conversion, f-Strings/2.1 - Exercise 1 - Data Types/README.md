@@ -1,4 +1,4 @@
-# DATA TYPES
+# DATA TYPES
 
 ## Instructions
 
