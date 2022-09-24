@@ -1,6 +1,7 @@
 # LEAP YEAR
 
 ## Instructions
+
 Write a program that works out whether if a given year is a leap year. A normal year has 365 days, leap years have 366, with an extra day in February. The reason why we have leap years is really fascinating, this [video](https://www.youtube.com/watch?v=xX96xng7sAE) does it more justice.
 
 This is how you work out whether if a particular year is a leap year.
@@ -30,7 +31,8 @@ But the year 2100 is not a leap year because:
 2100 ÷ 400 = 5.25 (Not Leap)
 
 ## Examples
-### Example Input 1
+
+### Example 1
 ```
 2400
 ```
@@ -38,7 +40,7 @@ But the year 2100 is not a leap year because:
 Leap year.
 ```
 
-### Example Input 2
+### Example 2
 ```
 1989
 ```

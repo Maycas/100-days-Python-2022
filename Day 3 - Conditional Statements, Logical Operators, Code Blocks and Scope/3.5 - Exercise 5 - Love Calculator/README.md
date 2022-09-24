@@ -1,6 +1,7 @@
 # LOVE CALCULATOR
 
 ## Instructions
+
 You are going to write a program that tests the compatibility between two people.
 
 To work out the love score between two people:
@@ -54,6 +55,7 @@ Love Score = 53
 Print: "Your score is 53."
 
 ### Example 1
+
 ```python
 name1 = "Kanye West"
 name2 = "Kim Kardashian"
@@ -62,7 +64,9 @@ name2 = "Kim Kardashian"
 ```
 Your score is 42, you are alright together.
 ```
+
 ### Example 2
+
 ```python
 name1 = "Brad Pitt"
 name2 = "Jennifer Aniston"

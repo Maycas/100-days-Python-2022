@@ -1,6 +1,7 @@
 # ODD OR EVEN
 
 ## Instructions
+
 Write a program that works out whether if a given number is an odd or even number.
 
 Even numbers can be divided by 2 with no remainder.
@@ -32,9 +33,9 @@ therefore: `14 % 4 = 2`
 Warning your output should match the Example Output format exactly, even the positions of the commas and full stops.
 
 ## Examples
+
 `43`
 `This is an odd number.`
-
 
 `94`
 `This is an even number.`
