@@ -1,6 +1,6 @@
 # BMI 2.0
 
-## Instructions
+## Instructions
 
 Write a program that interprets the Body Mass Index (BMI) based on a user's weight and height.
 
@@ -18,7 +18,7 @@ The BMI is calculated by dividing a person's weight (in kg) by the square of the
 
 $\ BMI = weight (kg) / height(m)^2 $
 
-## Example
+## Example
 
 ```python
 weight = 85

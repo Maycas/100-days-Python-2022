@@ -15,5 +15,9 @@ Where x, y and z are replaced with the actual calculated numbers.
 
 ## Example
 
-`56`
-`You have 12410 days, 1768 weeks, and 408 months left.`
+```
+56
+```
+```
+You have 12410 days, 1768 weeks, and 408 months left.
+```
