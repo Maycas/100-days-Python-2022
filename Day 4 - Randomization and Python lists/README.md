@@ -1,4 +1,4 @@
-# Day 3 - Randomization and Python Lists
+# Day 4 - Randomization and Python Lists
 
 ## New concepts
 
