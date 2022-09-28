@@ -5,10 +5,15 @@ for n in range(0, len(student_heights)):
 # 🚨 Don't change the code above 👆
 
 
-#Write your code below this row 👇
+# Write your code below this row 👇
+# Can't use sum() or len()
 
-sum = 0
+total_height = 0
+number_of_students = 0
 for height in student_heights:
-    sum += height
+    total_height += height
+    number_of_students += 1
 
-print( round( sum / len(student_heights) ) )
+avg_height = round( total_height / number_of_students )
+
+print( avg_height )

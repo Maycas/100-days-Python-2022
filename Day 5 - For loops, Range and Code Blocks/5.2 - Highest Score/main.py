@@ -5,11 +5,12 @@ for n in range(0, len(student_scores)):
 print(student_scores)
 # 🚨 Don't change the code above 👆
 
-#Write your code below this row 👇
+# Write your code below this row 👇
+# Can't use max() function
 
-max = 0
-for idx in range(len(student_scores)):
-    if student_scores[idx] > max:
-        max = student_scores[idx]
+highest_score = 0
+for score in student_scores:
+    if score > highest_score:
+        highest_score = score
 
-print(f"The highest score in the class is: {max}")
+print(f"The highest score in the class is: {highest_score}")

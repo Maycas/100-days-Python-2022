@@ -1,4 +1,4 @@
-# HIGH SCORE
+# HIGHEST SCORE
 
 ## Instructions
 

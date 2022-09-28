@@ -1,8 +1,9 @@
-# Day 5 - For loops, 
+# Day 5 - For loops, Range and Code Blocks
 
 ## New concepts
 
-- 
+- For loops
+- `range()`
 
 ## Exercises
 
