@@ -5,6 +5,7 @@
 - Passing parameters to functions:
   - `def my_function(parameter_1, parameter_2)`
   - Positional vs Keyword arguments
+- How to get a position of an element in a list or in a string: `.index(element)`
 
 ## Exercises
 
