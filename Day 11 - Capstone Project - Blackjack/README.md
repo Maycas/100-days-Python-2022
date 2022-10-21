@@ -17,3 +17,4 @@ Implement a [Blackjack](https://es.wikipedia.org/wiki/Blackjack) game script wit
 - The cards in the list have equal probability of being drawn.
 - Cards are not removed from the deck as they are drawn.
 - The computer is the dealer.
+- The dealer will keep requesting cards if its hand is lower than 17.
