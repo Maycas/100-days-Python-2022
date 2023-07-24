@@ -11,9 +11,11 @@ You are going to write a program that will select a random name from a list of n
 When you run the code, just use a random number as the seed. e.g. 67346 It doesn't matter what you chose, it's only for our testing code to check your work.
 
 # Example
+
 ```
 Angela, Ben, Jenny, Michael, Chloe
 ```
+
 Note: notice that there is a space between the comma and the next name.
 
 ```

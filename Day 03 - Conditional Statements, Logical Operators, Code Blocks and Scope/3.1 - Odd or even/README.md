@@ -39,4 +39,3 @@ Warning your output should match the Example Output format exactly, even the pos
 
 `94`
 `This is an even number.`
-

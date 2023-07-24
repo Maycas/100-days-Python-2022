@@ -11,12 +11,10 @@
   - Add items programmatically
 - Nesting dictionaries and lists
 
-
 ## Exercises
 
 - Grading program
 - Dictionary in list
-
 
 ## Project
 

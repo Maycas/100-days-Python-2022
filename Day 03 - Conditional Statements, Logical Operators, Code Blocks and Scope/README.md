@@ -17,7 +17,7 @@
 - Operations:
   - Modulo: `%`
 
-## Exercises
+## Exercises 
 
 - Odd or Even
 - BMI 2.0

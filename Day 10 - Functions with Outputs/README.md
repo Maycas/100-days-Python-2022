@@ -4,12 +4,11 @@
 
 - `return` outputs from a function
 - Docstrings
-- Basic Recursion 
+- Basic Recursion
 
 ## Exercises
 
 - Days in Month
-  
 
 ## Project
 

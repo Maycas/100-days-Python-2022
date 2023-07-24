@@ -20,10 +20,10 @@ This is the scoring criteria:
 
 ```
 {
-    'Harry': 'Exceeds Expectations', 
-    'Ron': 'Acceptable', 
-    'Hermione': 'Outstanding', 
-    'Draco': 'Acceptable', 
+    'Harry': 'Exceeds Expectations',
+    'Ron': 'Acceptable',
+    'Hermione': 'Outstanding',
+    'Draco': 'Acceptable',
     'Neville': 'Fail'
 }
 ```

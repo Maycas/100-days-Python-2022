@@ -1,4 +1,4 @@
-#Write your code below this row 👇
+# Write your code below this row 👇
 
 # Option A
 sum = 0

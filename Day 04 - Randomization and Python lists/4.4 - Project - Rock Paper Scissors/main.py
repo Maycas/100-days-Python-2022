@@ -31,18 +31,19 @@ scissors = '''
 options = [rock, paper, scissors]
 
 # Player choice
-player_choice = int( input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n") )
+player_choice = int(
+    input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 
 # Computer choice
 computer_choice = random.randint(0, 2)
 
 # Determining the winner
-# Looking at how the options are structured. A player always beats the option on his left, and loses 
-# against the option on his right. So, if player - computer == 1, then the player wins. Then, if the 
-# player selects scissors and computer selects rock, then player the player loses 
-# (player - computer == 2). Finally, there's an edge case, where player selects rock and computer 
-# selects scissors, then player - computer = -2. 
-# In that last case, we need to convert this -2 using the modulo operator so it becomes a 1 and the 
+#  Looking at how the options are structured. A player always beats the option on his left, and loses
+# against the option on his right. So, if player - computer == 1, then the player wins. Then, if the
+# player selects scissors and computer selects rock, then player the player loses
+# (player - computer == 2). Finally, there's an edge case, where player selects rock and computer
+# selects scissors, then player - computer = -2.
+# In that last case, we need to convert this -2 using the modulo operator so it becomes a 1 and the
 # player wins, so doing (player - computer) % 3 = 1, and then the player wins.
 
 difference = (player_choice - computer_choice) % 3

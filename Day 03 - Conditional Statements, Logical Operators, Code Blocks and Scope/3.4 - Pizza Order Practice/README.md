@@ -25,6 +25,7 @@ size = "L"
 add_pepperoni = "Y"
 extra_cheese = "N"
 ```
+
 ```
 Your final bill is: $28.
 ```

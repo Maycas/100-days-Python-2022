@@ -13,6 +13,7 @@ You are going to write a program that automatically prints the solution to the F
 &emsp; And if the number is divisible by both 3 and 5 e.g. 15 then instead of the number it should print "FizzBuzz"
 
 e.g. it might start off like this:
+
 ```
 1
 2

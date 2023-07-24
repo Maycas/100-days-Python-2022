@@ -4,24 +4,24 @@ name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")
 # 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
+# Write your code below this line 👇
 
 combined_string = name1 + name2
 lower_case_string = combined_string.lower()
 
 # count letters for TRUE (without any loops... yet)
-first_digit = lower_case_string.count('t') 
+first_digit = lower_case_string.count('t')
 first_digit += lower_case_string.count('r')
 first_digit += lower_case_string.count('u')
 first_digit += lower_case_string.count('e')
 
 # count letters for LOVE (without any loops... yet)
-second_digit = lower_case_string.count('l') 
-second_digit += lower_case_string.count('o') 
-second_digit += lower_case_string.count('v') 
-second_digit += lower_case_string.count('e') 
+second_digit = lower_case_string.count('l')
+second_digit += lower_case_string.count('o')
+second_digit += lower_case_string.count('v')
+second_digit += lower_case_string.count('e')
 
-score = int( str(first_digit) + str(second_digit) )
+score = int(str(first_digit) + str(second_digit))
 
 # show score
 message = ""

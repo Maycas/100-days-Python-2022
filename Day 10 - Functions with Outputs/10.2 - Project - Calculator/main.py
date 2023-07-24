@@ -2,18 +2,26 @@ import os
 from art import LOGO
 
 # Add
+
+
 def add(n1, n2):
     return n1 + n2
 
 # Subtract
+
+
 def subtract(n1, n2):
     return n1 - n2
 
 # Multiply
+
+
 def multiply(n1, n2):
     return n1 * n2
 
 # Divide
+
+
 def divide(n1, n2):
     return n1 / n2
 
@@ -47,7 +55,7 @@ def calculator():
         else:
             should_continue = False
             os.system('clear')
-            calculator() # restart calculation in case 
+            calculator()  #  restart calculation in case
 
 
 calculator()

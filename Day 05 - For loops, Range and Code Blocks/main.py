@@ -7,7 +7,7 @@ for fruit in fruits:
 
 # Range function
 for number in range(1, 10):
-    print(number) # won't print last number
+    print(number)  # won't print last number
 
 # Add all numbers from 1 to 101
 accumulator = 0

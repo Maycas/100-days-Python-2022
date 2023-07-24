@@ -9,6 +9,7 @@ Write a program that prints the number of characters in a user's name. You might
 ```
 Angela
 ```
+
 ```
 4
 ```

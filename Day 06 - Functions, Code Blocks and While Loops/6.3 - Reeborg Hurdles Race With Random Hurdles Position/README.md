@@ -4,7 +4,7 @@
 
 Reeborg has entered a hurdle race. Make him run the course, following the path shown.
 
-*The position and number of hurdles changes each time this world is reloaded.*
+_The position and number of hurdles changes each time this world is reloaded._
 
 # What you need to know
 

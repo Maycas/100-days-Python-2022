@@ -6,9 +6,9 @@ Write a program that works out whether if a given year is a leap year. A normal 
 
 This is how you work out whether if a particular year is a leap year.
 
-&emsp; on every year that is evenly divisible by 4 
+&emsp; on every year that is evenly divisible by 4
 
-&emsp; **except** every year that is evenly divisible by 100 
+&emsp; **except** every year that is evenly divisible by 100
 
 &emsp; **unless** the year is also evenly divisible by 400
 
@@ -33,17 +33,21 @@ But the year 2100 is not a leap year because:
 ## Examples
 
 ### Example 1
+
 ```
 2400
 ```
+
 ```
 Leap year.
 ```
 
 ### Example 2
+
 ```
 1989
 ```
+
 ```
 Not leap year.
 ```

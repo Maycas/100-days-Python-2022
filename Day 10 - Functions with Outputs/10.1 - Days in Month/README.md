@@ -17,5 +17,3 @@ And it will use this information to work out the **number of days in the month**
 ```
 
 The List **month_days** contains the number of days in a month from January to December for a non-leap year. A leap year has 29 days in February.
-
-

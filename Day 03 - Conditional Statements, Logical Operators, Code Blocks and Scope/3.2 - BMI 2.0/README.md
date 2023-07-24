@@ -24,6 +24,7 @@ $\ BMI = weight (kg) / height(m)^2 $
 weight = 85
 height = 1.75
 ```
+
 ```
 85 ÷ (1.75 x 1.75) = 27.755102040816325
 Your BMI is 28, you are slightly overweight.

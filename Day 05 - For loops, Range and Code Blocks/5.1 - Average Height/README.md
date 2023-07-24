@@ -29,6 +29,7 @@ Average height rounded to the nearest whole number = **164**
 ```
 156 178 165 171 187
 ```
+
 In this case, student_heights would be a list that looks like: `[156, 178, 165, 171, 187]`
 
 ```

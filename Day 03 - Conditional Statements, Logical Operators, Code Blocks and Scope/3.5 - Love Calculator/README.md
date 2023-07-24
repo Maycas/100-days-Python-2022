@@ -6,9 +6,9 @@ You are going to write a program that tests the compatibility between two people
 
 To work out the love score between two people:
 
-&emsp; Take both people's names and check for the number of times the letters in the word TRUE occurs. 
+&emsp; Take both people's names and check for the number of times the letters in the word TRUE occurs.
 
-&emsp; Then check for the number of times the letters in the word LOVE occurs. 
+&emsp; Then check for the number of times the letters in the word LOVE occurs.
 
 &emsp; Then combine these numbers to make a 2 digit number.
 
@@ -36,6 +36,7 @@ e.g.
 name1 = "Angela Yu"
 name2 = "Jack Bauer"
 ```
+
 T occurs 0 times
 R occurs 1 time
 U occurs 2 times
@@ -71,6 +72,7 @@ Your score is 42, you are alright together.
 name1 = "Brad Pitt"
 name2 = "Jennifer Aniston"
 ```
+
 ```
 Your score is 73.
 ```
