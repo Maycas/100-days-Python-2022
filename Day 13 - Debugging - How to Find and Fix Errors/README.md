@@ -13,3 +13,8 @@
 9. Run your code often
 10. Ask StackOverflow
 
+## Exercises
+
+- Debugging Odd and Even
+- Debugging Leap Year
+- Debugging FizzBuzz
