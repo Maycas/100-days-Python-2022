@@ -6,7 +6,7 @@ from game_data import data
 
 def format_data(option):
     """ Format the option data into a printable format """
-    return f"{option['name']}, a {option['description']}, from {option['country']}. ({option['follower_count']})"
+    return f"{option['name']}, a {option['description']}, from {option['country']}."
 
 
 def check_user_guess(guess, option_a, option_b):
@@ -21,7 +21,8 @@ def game():
     score = 0
     game_should_continue = True
 
-    # Setting option B first, so it becomes option A later so we can repeat that option A becomes option B if the user guesses right
+    # Setting option B first, so it becomes option A later so we can repeat that option A becomes option B if the
+    # user guesses right
     option_b = random.choice(data)
 
     print(LOGO)
@@ -44,7 +45,7 @@ def game():
         # Ask player for who has more followers and expect an input
         guess = input("Who has more followers? Type 'A' or 'B': ").upper()
 
-        #  Check correct guess
+        # Check correct guess
         is_correct = check_user_guess(guess, option_a, option_b)
 
         # Clear screen between rounds
