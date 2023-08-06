@@ -1,5 +1,6 @@
 import os
 import random
+
 from art import LOGO, VS
 from game_data import data
 
@@ -21,7 +22,7 @@ def game():
     score = 0
     game_should_continue = True
 
-    # Setting option B first, so it becomes option A later so we can repeat that option A becomes option B if the
+    # Setting option B first, so it becomes option A later, so we can repeat that option A becomes option B if the
     # user guesses right
     option_b = random.choice(data)
 

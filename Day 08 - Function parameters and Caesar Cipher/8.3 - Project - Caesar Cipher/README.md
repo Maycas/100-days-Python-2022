@@ -1,8 +1,9 @@
-# CAESAR CIPHER
+# PROJECT 8 - CAESAR CIPHER
 
 # Instructions
 
-A [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher) is a way of encrypting messages during the times of Rome where the encryption happens by shifting the letters in a sentence by a certain amount of positions.
+A [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher) is a way of encrypting messages during the times of Rome
+where the encryption happens by shifting the letters in a sentence by a certain amount of positions.
 
 For example:
 
