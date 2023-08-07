@@ -1,5 +1,5 @@
 from menu import MENU
-from resources import RESOURCES
+from resources import INITIAL_RESOURCES
 
 
 def print_report(resources):
@@ -63,8 +63,7 @@ def coffee_machine():
     Operates the coffee machine
     """
     machine_is_on = True
-    resources = RESOURCES
-    menu = MENU
+    resources = INITIAL_RESOURCES
 
     while machine_is_on:
         option = input("What would you like? (espresso / latte / cappuccino)? ").lower()
@@ -75,7 +74,7 @@ def coffee_machine():
             print_report(resources)
         else:
             try:
-                drink = menu[option]
+                drink = MENU[option]
                 if is_resource_sufficient(resources, drink['ingredients']):
                     payment = process_coins()
                     if is_transaction_successful(payment, drink['cost'], resources):
