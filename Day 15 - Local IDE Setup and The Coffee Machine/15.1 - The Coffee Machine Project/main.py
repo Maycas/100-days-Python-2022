@@ -17,7 +17,7 @@ def is_resource_sufficient(resources, ingredients):
     Returns True when an order can be made. False if ingredients are not sufficient
     """
     for item in ingredients:
-        if ingredients[item] > resources[item]:
+        if ingredients[item] >= resources[item]:
             print(f"Sorry, there is not enough {item}")
             return False
     return True
