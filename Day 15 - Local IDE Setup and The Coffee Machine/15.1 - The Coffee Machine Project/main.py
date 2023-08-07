@@ -1,17 +1,15 @@
 from menu import MENU
 from resources import RESOURCES
 
-profit = 0
 
-
-def print_report(resources, money):
+def print_report(resources):
     """
     Prints a report with available resources and profit
     """
     print(f"Water: {resources['water']}ml")
     print(f"Milk: {resources['milk']}ml")
     print(f"Coffee: {resources['coffee']}g")
-    print(f"Money: ${money}")
+    print(f"Money: ${resources['profit']}")
 
 
 def is_resource_sufficient(resources, ingredients):
@@ -37,15 +35,14 @@ def process_coins():
     return total
 
 
-def is_transaction_successful(money_received, drink_cost):
+def is_transaction_successful(money_received, drink_cost, resources):
     """
     Returns True when the payment is accepted, or false if money is insufficient
     """
-    global profit
     if money_received >= drink_cost:
         change = round(money_received - drink_cost, 2)
         print(f"Here's ${change} in change.")
-        profit += drink_cost
+        resources['profit'] += drink_cost
         return True
     else:
         print("Sorry. That's not enough money. Money refunded")
@@ -65,7 +62,6 @@ def coffee_machine():
     """
     Operates the coffee machine
     """
-    global profit
     machine_is_on = True
     resources = RESOURCES
     menu = MENU
@@ -76,13 +72,13 @@ def coffee_machine():
         if option == 'off':
             machine_is_on = False
         elif option == 'report':
-            print_report(resources, profit)
+            print_report(resources)
         else:
             try:
                 drink = menu[option]
                 if is_resource_sufficient(resources, drink['ingredients']):
                     payment = process_coins()
-                    if is_transaction_successful(payment, drink['cost']):
+                    if is_transaction_successful(payment, drink['cost'], resources):
                         make_coffee(option, drink['ingredients'], resources)
             except Exception as e:
                 print(f"Option {e} not available. Please try again")
