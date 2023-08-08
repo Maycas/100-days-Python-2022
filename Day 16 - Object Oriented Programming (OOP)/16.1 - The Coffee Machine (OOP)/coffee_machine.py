@@ -26,9 +26,8 @@ class CoffeeMachine:
         drink = self.menu.find_drink(drink_name)
         if drink is None:
             return
-        elif self.coffee_maker.is_resource_sufficient(drink):
-            if self.money_machine.make_payment(drink.cost):
-                self.coffee_maker.make_coffee(drink)
+        elif self.coffee_maker.is_resource_sufficient(drink) and self.money_machine.make_payment(drink.cost):
+            self.coffee_maker.make_coffee(drink)
 
     def run(self):
         """Runs the Coffee Machine"""
