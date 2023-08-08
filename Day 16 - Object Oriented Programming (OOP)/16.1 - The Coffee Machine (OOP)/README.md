@@ -88,3 +88,7 @@ documentation PDF:
 
    b) Once all resources have been deducted, tell the user `“Here is your latte. Enjoy!”`. If latte was their choice of
    drink.
+
+## Instructions
+
+- Run `main.py`
