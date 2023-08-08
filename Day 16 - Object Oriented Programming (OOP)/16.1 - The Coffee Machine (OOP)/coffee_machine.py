@@ -4,7 +4,7 @@ from money_machine import MoneyMachine
 
 
 class CoffeeMachine:
-    """ Models a complete coffee machine"""
+    """ Models a complete coffee machine with a menu, a coffee maker module and a money machine module"""
 
     def __init__(self):
         self.menu = Menu()
