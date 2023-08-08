@@ -66,7 +66,7 @@ def coffee_machine():
     resources = INITIAL_RESOURCES
 
     while machine_is_on:
-        option = input("What would you like? (espresso / latte / cappuccino)? ").lower()
+        option = input("What would you like (espresso / latte / cappuccino)? ").lower()
 
         if option == 'off':
             machine_is_on = False
