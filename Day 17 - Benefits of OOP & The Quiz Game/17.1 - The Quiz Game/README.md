@@ -33,6 +33,6 @@ This class will also have the following method:
 - `still_has_questions()`, will return True if there are still questions to go through.
 - `check_answer()`, will check if the given answer is correct and update the score accordingly.
 
-### Integrate with Open Trivia DB
+### BONUS: Integrate with Open Trivia DB
 
 In order to get additional questions, generate some new questions from Open
