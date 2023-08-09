@@ -11,12 +11,16 @@
     - `left()`
     - `right()`
 - Tuples
-- Importing Modules
+- Different ways to import modules
 
 ## Challenges
 
 - Draw a square
+- Draw a dashed line
+- Draw several polygons / shapes
+- Draw a random walk
+- Draw a spirograph
 
 ## Project
 
-- 
+- Hirst Painting

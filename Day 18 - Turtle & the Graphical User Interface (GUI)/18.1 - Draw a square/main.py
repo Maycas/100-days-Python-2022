@@ -1,8 +1,11 @@
 from turtle import Turtle
 
-turtle = Turtle()
-turtle.speed(1)
+tim = Turtle()
+tim.speed(1)
 
-for num in range(0, 4):
-    turtle.forward(100)
-    turtle.right(90)
+for _ in range(4):
+    tim.forward(100)
+    tim.right(90)
+
+screen = Screen()
+screen.exitonclick()
