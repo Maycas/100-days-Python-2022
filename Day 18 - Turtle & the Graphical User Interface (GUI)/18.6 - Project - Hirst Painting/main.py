@@ -30,7 +30,7 @@ tim.speed("fastest")
 tim.penup()
 tim.hideturtle()
 
-# set the pointer at the lower left corner to give space to the painting
+# set the pointer in the lower left corner to give space to the painting
 tim.setheading(215)
 tim.forward(300)
 tim.setheading(0)

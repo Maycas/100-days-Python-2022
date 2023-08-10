@@ -12,4 +12,5 @@ The steps to complete this project are:
   to be in a list of tuples containing (R, G, B) components
 - Use Turtle and the extracted colors to create a Hirst painting with:
     - 10x10 color spots (10 rows, 10 columns)
+    - Each dot will have a randomly selected color
     - Each dot will have a size 20 and will be spaced apart by 50 
