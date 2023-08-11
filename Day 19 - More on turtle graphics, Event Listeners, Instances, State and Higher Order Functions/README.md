@@ -4,6 +4,7 @@
 
 - Event Listeners: `.onkey()`
 - Higher Order functions: Functions that call other functions that are passed to them as parameters
+- Object instances
 
 ## Challenges
 
