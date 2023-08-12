@@ -5,25 +5,35 @@ DOWN = 270
 LEFT = 180
 RIGHT = 0
 
+SNAKE_COLOR = "white"
+BODY_SEGMENT_SIZE = 20
+STEP = 20
+
 
 class Snake:
 
-    def __init__(self, body_segment_size, step_size):
+    def __init__(self):
         self.snake_body_segments = []
-        self.step_size = step_size
-        self.create_snake(body_segment_size)
+        self.create_snake(BODY_SEGMENT_SIZE)
         self.head = self.snake_body_segments[0]
 
     def create_snake(self, body_segment_size):
         for index in range(3):
             new_segment = Turtle("square")
             new_segment.penup()
-            new_segment.color("white")
+            new_segment.color(SNAKE_COLOR)
 
             x_position = body_segment_size * index
             new_segment.setpos(x=-x_position, y=0)
 
             self.snake_body_segments.append(new_segment)
+
+    def add_segment(self, position):
+        pass
+
+    def extend(self):
+        """ Add a new segment to the snake"""
+        pass
 
     def up(self):
         if self.head.heading() != DOWN:
@@ -49,4 +59,4 @@ class Snake:
             new_y = self.snake_body_segments[seg_num - 1].ycor()
             self.snake_body_segments[seg_num].setpos(new_x, new_y)
 
-        self.head.forward(self.step_size)
+        self.head.forward(STEP)
