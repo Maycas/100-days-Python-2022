@@ -23,6 +23,7 @@ class Game:
 
     def __init__(self, canvas_size, screen_refresh_time):
         self.screen = setup_screen(canvas_size)
+        self.limit = (canvas_size / 2) - 10
         self.screen_refresh_time = screen_refresh_time
 
         self.snake = Snake()
@@ -47,6 +48,14 @@ class Game:
     def exit(self):
         self.game_is_on = False
 
+    def snake_collides_with_border(self):
+        snake_x = self.snake.head.xcor()
+        snake_y = self.snake.head.ycor()
+        return snake_x > self.limit \
+            or snake_x < -self.limit \
+            or snake_y > self.limit \
+            or snake_y < -self.limit
+
     def run(self):
         while self.game_is_on:
             self.refresh_screen()
@@ -56,11 +65,10 @@ class Game:
             if self.snake.head.distance(self.food) < 15:
                 self.food.refresh()
                 self.scoreboard.increase()
+                self.snake.extend()
 
-            # Detect collision with wall
-            snake_x = self.snake.head.xcor()
-            snake_y = self.snake.head.ycor()
-            if snake_x > 290 or snake_x < -290 or snake_y > 290 or snake_y < -290:
+            # Detect collision with either wall or snake tail
+            if self.snake_collides_with_border() or self.snake.collision_with_tail():
                 self.game_is_on = False
                 self.scoreboard.game_over()
 

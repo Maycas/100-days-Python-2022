@@ -7,7 +7,7 @@
     - Snake body animation and key binding
 - Part 2:
     - Class inheritance
-    - Slicing of lists and dictionaries
+    - Slicing of lists and tuples
 
 ## Project
 

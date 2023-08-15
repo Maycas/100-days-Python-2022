@@ -19,21 +19,26 @@ class Snake:
 
     def create_snake(self, body_segment_size):
         for index in range(3):
-            new_segment = Turtle("square")
-            new_segment.penup()
-            new_segment.color(SNAKE_COLOR)
-
-            x_position = body_segment_size * index
-            new_segment.setpos(x=-x_position, y=0)
-
-            self.snake_body_segments.append(new_segment)
+            x = - (body_segment_size * index)
+            y = 0
+            self.add_segment((x, y))
 
     def add_segment(self, position):
-        pass
+        new_segment = Turtle("square")
+        new_segment.penup()
+        new_segment.color(SNAKE_COLOR)
+        new_segment.goto(position)
+
+        self.snake_body_segments.append(new_segment)
 
     def extend(self):
-        """ Add a new segment to the snake"""
-        pass
+        self.add_segment(self.snake_body_segments[-1].position())
+
+    def collision_with_tail(self):
+        for segment in self.snake_body_segments[1:]:
+            if self.head.distance(segment) < 10:
+                return True
+        return False
 
     def up(self):
         if self.head.heading() != DOWN:
